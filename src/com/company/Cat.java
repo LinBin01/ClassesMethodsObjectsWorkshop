@@ -78,4 +78,27 @@ public class Cat extends Pet{
         this.furColor = furColor;
     }
 
+    @Override
+    protected String makeSound(){
+        return "MEOOOOOOOOW!";
+    }
+
+    protected String catYears(){
+        int catYear;
+        switch(age){
+            case 0:
+                catYear = 0;
+                break;
+            case 1:
+                catYear = 19;
+                break;
+            case 2:
+                catYear = 24;
+                break;
+            default:
+                catYear = (age -2) * 4 + 24;
+                break;
+        }
+        return super.getPetName() + " is " + super.getAge() + " human years old and " + catYear + " cat years old.";
+    }
 }

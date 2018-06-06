@@ -90,7 +90,7 @@ public class Cat extends Pet{
                 catYear = 0;
                 break;
             case 1:
-                catYear = 19;
+                catYear = 15;
                 break;
             case 2:
                 catYear = 24;

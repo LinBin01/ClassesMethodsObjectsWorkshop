@@ -19,24 +19,7 @@ public class Cat extends Pet{
         this.weight = weight;
     }
 
-    //     public Cat(String name){
-//         default constructor
-//        this.name = name;
-//    }
-//
-//    public Cat(String name, int legs, double weight){
-//        this.name = name;
-//        this.legs = legs;
-//        this.weight = weight;
-//    }
-//
-//    public String getName() {
-//        return name;
-//    }
-//
-//    public void setName(String name) {
-//        this.name = name;
-//    }
+
 
     public boolean isWhiskers() {
     return whiskers;
